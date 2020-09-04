@@ -1,0 +1,34 @@
+{
+  "name": "brevifolia-nextjs",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Next.js",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": "kendallstrautman",
+  "scripts": {
+    "dev": "next",
+    "develop": "yarn dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "^9.3.3",
+    "node-glob": "^1.2.0",
+    "raw-loader": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "next"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kendallstrautman/brevifolia-nextjs"
+  }
+}
