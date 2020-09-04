@@ -1,10 +1,10 @@
 {
-  "name": "brevifolia-nextjs",
+  "name": "conner-next",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Next.js",
+  "description": "A new photography blog using Next.js",
   "license": "MIT",
   "version": "0.1.0",
-  "author": "kendallstrautman",
+  "author": "eric",
   "scripts": {
     "dev": "next",
     "develop": "yarn dev",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "next": "^9.3.3",
+    "next": "latest",
     "node-glob": "^1.2.0",
     "raw-loader": "^4.0.0",
     "react": "^16.13.1",
@@ -23,12 +23,5 @@
   },
   "devDependencies": {
     "prettier": "^1.18.2"
-  },
-  "keywords": [
-    "next"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kendallstrautman/brevifolia-nextjs"
   }
 }
