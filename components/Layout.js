@@ -39,8 +39,8 @@ export default function Layout(props) {
           }
           .content {
             flex-grow: none;
-            width: 70vw;
-            margin-left: 30vw;
+            width: 85vw;
+            margin-left: 15vw;
           }
         }
       `}

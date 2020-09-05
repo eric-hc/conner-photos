@@ -2,7 +2,6 @@
   "name": "conner-next",
   "private": true,
   "description": "A new photography blog using Next.js",
-  "license": "MIT",
   "version": "0.1.0",
   "author": "eric",
   "scripts": {

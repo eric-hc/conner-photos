@@ -1,17 +1,6 @@
-<p align="center">
-  <a href="https://www.nextjs.org/">
-    <img src="public/static/icons/nextjs-black-logo.svg" width="80" height="28">
-  </a>
-</p>
 <h1 align="center">
   Brevifolia
 </h1>
-
-> 04.01.2020: Repo was updated to use latest changes from [Next 9.3](https://nextjs.org/blog/next-9-3#next-gen-static-site-generation-ssg-support). Data fetching now uses `getStaticProps` & `getStaticPaths`.
-
-![brevifolia-screenshot](public/static/brevifolia-screenshot.jpg)
-
-## About
 
 Brevifolia is a minimalist blog starter to get you going with [Next.js](https://nextjs.org/).
 

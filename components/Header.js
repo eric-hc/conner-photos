@@ -46,7 +46,7 @@ export default function Header(props) {
             }
             .nav {
               padding: 2rem;
-              width: 30vw;
+              width: 15vw;
               height: 100%;
               border-right: 1px solid #ebebeb;
               border-bottom: none;
