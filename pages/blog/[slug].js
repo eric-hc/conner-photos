@@ -35,7 +35,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <h2 className="blog__footer">Written By: {frontmatter.author}</h2>
+        {/* <h2 className="blog__footer">Written By: {frontmatter.author}</h2> */}
       </article>
       <style jsx>
         {`

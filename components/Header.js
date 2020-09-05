@@ -9,15 +9,17 @@ export default function Header(props) {
         aria-label="main navigation"
       >
         <Link href="/">
-          <h1>{props.siteTitle}</h1>
+          <h1 className="font-header text-blue-700">{props.siteTitle}</h1>
         </Link>
         <div>
           <Link href={`${typeof window !== "undefined" &&
           window.location.pathname == "/info" ?
           "/" : "/info"}`}>
-            <h1>{`${typeof window !== "undefined" &&
-          window.location.pathname == "/info" ?
-          "close" : "info"}`}</h1>
+            <h1 className="font-header text-blue-700">
+              {`${typeof window !== "undefined" &&
+                window.location.pathname == "/info" ?
+                "close" : "info"}`}
+            </h1>
           </Link>
         </div>
       </nav>

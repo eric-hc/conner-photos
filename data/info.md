@@ -1,6 +1,6 @@
 ---
 title: info page
-background_color: '#AEC4BE'
+background_color: ''
 ---
 
 Raleigh photographer

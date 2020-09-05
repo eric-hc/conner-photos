@@ -9,27 +9,13 @@ export default function Info({ frontmatter, markdownBody, title }) {
       bgColor={frontmatter.background_color}
       siteTitle={title}
     >
-      <section className="info_blurb">
-        <ReactMarkdown source={markdownBody} />
-      </section>
-      <style jsx>{`
-        .info_blurb {
-          max-width: 800px;
-          padding: 1.5rem 1.25rem;
-        }
-
-        @media (min-width: 768px) {
-          .info_blurb {
-            padding: 2rem;
-          }
-        }
-
-        @media (min-width: 1440px) {
-          .info_blurb {
-            padding: 3rem;
-          }
-        }
-      `}</style>
+      <div className="container mx-auto pt-8 sm:p-4 md:p-6 lg:p-8 xl:p-24 text-blue-700">
+        {/* <ReactMarkdown source={markdownBody} /> */}
+        <h1 className="text-6xl">Say hey!</h1>
+        <p className="text-lg">
+          Shoot me a message and I'd love to talk
+        </p>
+      </div>
     </Layout>
   )
 }
