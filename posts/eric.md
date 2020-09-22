@@ -6,7 +6,7 @@ hero_image: ../eric/DSC_1447.JPG
 ---
 
 Laoreet id donec ultrices tincidunt arcu non sodales. Lacus viverra vitae congue eu consequat ac. Amet aliquam id diam maecenas ultricies mi eget mauris pharetra. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. 
-
+<!--
 ![](../eric/DSC_1162.JPG)
 ![](../eric/DSC_1163.JPG)
 ![](../eric/DSC_1165.JPG)
@@ -35,4 +35,4 @@ Laoreet id donec ultrices tincidunt arcu non sodales. Lacus viverra vitae congue
 ![](../eric/DSC_1367.JPG)
 ![](../eric/DSC_1446.JPG)
 ![](../eric/DSC_1447.JPG)
-
+-->
